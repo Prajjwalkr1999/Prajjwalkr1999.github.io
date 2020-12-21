@@ -253,20 +253,22 @@ padding:0px;
 #works .work-wrapper {
     border: 2px solid #cc99ff;
     padding: 2px;
+    /* height : 500px;
+    width : 350px; */
     margin: 5px 5px 10px 5px;
 }
 
 #works img {
     filter: gray; /* FOR IE6-9 */
-    -webkit-filter: grayscale(1); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
-    opacity: 0.8;
+    /* -webkit-filter: grayscale(1);  */
+    /* opacity: 0.8; */
 }
 
-    #works img:hover {
-        filter: none; /* FOR IE6-9 */
-        -webkit-filter: grayscale(0); /* FOR Google Chrome, Safari 6+ and  Opera 15+ */
+    /* #works img:hover {
+        filter: none; 
+        -webkit-filter: grayscale(0); 
         opacity: 1;
-    }
+    } */
 /* =============================================================
   TESTIMONIAL SECTION STYLES
  ============================================================ */
